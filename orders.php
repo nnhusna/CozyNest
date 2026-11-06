@@ -38,6 +38,8 @@ ob_start();
                     <select name="staff_num" id="staff_num" class="form-control" required>
                         <option value="">Select Staff</option>
                         <option value="S001">S001 - Aiman Syahmi</option>
+                        <option value="S002">S002 - Sharifah Norshafira</option>
+                        <option value="S003">S003 - Arif Hafiz</option>
                     </select>
                 </div>
                 <div class="col-md-3">
@@ -45,6 +47,8 @@ ob_start();
                     <select name="customer_num" id="customer_num" class="form-control" required>
                         <option value="">Select Customer</option>
                         <option value="C001">C001 - Kamelia Halim</option>
+                        <option value="C002">C002 - Sumayyah Saiful</option>
+                        <option value="C003">C003 - Farhana Balqis</option>
                     </select>
                 </div>
  
@@ -100,7 +104,7 @@ ob_start();
                         <td>S001 - Aiman Syahmi</td>
                         <td>C001 - Kamelia Halim</td>
                         <td>
-                            <a href="order_details.php" class="btn btn-sm btn-info text-white" title="Order details">
+                            <a href="orderdetails.php" class="btn btn-sm btn-info text-white" title="Order details">
                                 <i class="bi bi-list"></i>
                             </a>
                             <a href="invoice.php" class="btn btn-sm btn-success" title="View invoice">

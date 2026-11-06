@@ -30,8 +30,7 @@ ob_start();
                     <label for="product_num" class="form-label">Product <span class="text-danger" aria-hidden="true">*</span></label>
                     <select name="product_num" id="product_num" class="form-select" required>
                         <option value="">Select Product</option>
-                        <option value="P001">Road Bike (Stock = 10)</option>
-                        <option value="P002">Mountain Bike (Stock = 5)</option>
+                        <option value="P001">Premium Weighted Blanket (Stock = 10)</option>                   
                     </select>
                 </div>
                 <div class="col-md-4">
@@ -66,10 +65,10 @@ ob_start();
                 </thead>
                 <tbody>
                     <tr>
-                        <td>Road Bike</td>
-                        <td>$1,200.00</td>
+                        <td>Premium Weighted Blanket</td>
+                        <td>RM 129.00</td>
                         <td>1</td>
-                        <td>$1,200.00</td>
+                        <td>RM 129.00</td>
                         <td>
                             <a href="#" class="btn btn-sm btn-warning"><i class="bi bi-pencil"></i></a>
                             <a href="#" class="btn btn-sm btn-danger"><i class="bi bi-trash"></i></a>
@@ -77,7 +76,7 @@ ob_start();
                     </tr>
                     <tr><td colspan="5" class="text-center">No products added to this order</td></tr>
                 </tbody>
-                <tfoot><tr><th colspan="3" class="text-end">Grand Total</th><th>$1,200.00</th><th></th></tr></tfoot>
+                <tfoot><tr><th colspan="3" class="text-end">Grand Total</th><th>RM 129.00</th><th></th></tr></tfoot>
             </table>
         </div>
         <a href="orders.php" class="btn btn-secondary"><i class="bi bi-arrow-left me-1"></i>Back to Orders</a>
