@@ -2,13 +2,13 @@
                 <div class="p-4">
                     <a href="#" class="navbar-brand">
                         <div class="row">
-                            <h5 class="">My Company</h5>
+                            <h5 class="">CozyNest</h5>
                         </div>
                     </a>
                     <hr>
                     <ul class="mynav nav nav-pills flex-column">
                         <li class="nav-item mb-3 mt-2">
-                            <a href="" class="text-decoration-none text-white">
+                            <a href="home.php" class="text-decoration-none text-white">
                                 <i class="bi bi-house-fill me-2"></i>
                                 Home
                             </a>
@@ -57,8 +57,8 @@
                             </div>
 
                             <div class="d-inline-block align-middle ms-2 text-start">
-                                <h6 class="mb-0 text-nowrap">User</h6>
-                                <small class="text-white-50 text-nowrap d-block">user@email.com</small>
+                                <h6 class="mb-0 text-nowrap">Najihatul Husna</h6>
+                                <small class="text-white-50 text-nowrap d-block">najihatulhusna@email.com</small>
                             </div>
 
                         </a>

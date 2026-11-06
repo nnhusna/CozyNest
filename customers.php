@@ -107,14 +107,41 @@ ob_start();
                         <td>Kamelia Halim</td>
                         <td>Female</td>
                         <td>011-3456789</td>
-                        <td>25-10-2026</td>
+                        <td>21-10-2026</td>
                         <td>
                             <a href="#" class="btn btn-sm btn-warning">
                                 <i class="bi bi-pencil"></i>
                             </a>
-                            <button type="button" class="btn btn-sm btn-info text-white">
-                                <i class="bi bi-image"></i>
-                            </button>
+                            <a href="#" class="btn btn-sm btn-danger">
+                                <i class="bi bi-trash"></i>
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>C002</td>
+                        <td>Sumayyah Saiful</td>
+                        <td>Female</td>
+                        <td>014-6754234</td>
+                        <td>23-10-2026</td>
+                        <td>
+                            <a href="#" class="btn btn-sm btn-warning">
+                                <i class="bi bi-pencil"></i>
+                            </a>
+                            <a href="#" class="btn btn-sm btn-danger">
+                                <i class="bi bi-trash"></i>
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>C003</td>
+                        <td>Farhana Balqis</td>
+                        <td>Female</td>
+                        <td>011-7562234</td>
+                        <td>26-10-2026</td>
+                        <td>
+                            <a href="#" class="btn btn-sm btn-warning">
+                                <i class="bi bi-pencil"></i>
+                            </a>
                             <a href="#" class="btn btn-sm btn-danger">
                                 <i class="bi bi-trash"></i>
                             </a>

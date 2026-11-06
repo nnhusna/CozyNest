@@ -44,33 +44,33 @@ ob_start();
                     <label for="brand" class="form-label">Brand <span class="text-danger" aria-hidden="true">*</span></label>
                     <select name="product_brand" id="brand" class="form-select" required>
                         <option value="">Select Brand</option>
-                        <option value="Cervelo">Cervelo</option>
-                        <option value="Geometric">Geometric</option>
-                        <option value="Tecc">Tecc</option>
-                        <option value="Nosh">Nosh</option>
+                        <option value="SleepWell">SleepWell</option>
+                        <option value="DreamCloud">DreamCloud</option>
+                        <option value="SnugHaven">SnugHaven</option>
+                        <option value="CloudComfort">CloudComfort</option>
                     </select>
                 </div>
 
                 <div class="col-md-3">
-                    <label for="product_condition" class="form-label">Condition <span class="text-danger" aria-hidden="true">*</span></label>
-                    <select name="product_condition" id="product_condition" class="form-select" required>
-                        <option value="">Select Condition</option>
-                        <option value="New">New</option>
-                        <option value="Used">Used</option>
+                    <label for="product_color" class="form-label">Color <span class="text-danger" aria-hidden="true">*</span></label>
+                    <select name="product_color" id="product_color" class="form-select" required>
+                        <option value="">Select Color</option>
+                        <option value="Grey">Grey</option>
+                        <option value="Beige">Beige</option>
+                        <option value="Pink">Pink</option>
+                        <option value="Blue">Blue</option>
+                        <option value="Lavender">Lavender</option>
                     </select>
                 </div>
 
                 <div class="col-md-3">
-                    <label for="year" class="form-label">Manufacturing Year <span class="text-danger" aria-hidden="true">*</span></label>
-                    <select name="product_year" id="year" class="form-select" required>
-                        <option value="">Select Year</option>
-                        <option value="2020">2020</option>
-                        <option value="2021">2021</option>
-                        <option value="2022">2022</option>
-                        <option value="2023">2023</option>
-                        <option value="2024">2024</option>
-                        <option value="2025">2025</option>
-                        <option value="2026">2026</option>
+                    <label for="product_weight" class="form-label">Weight <span class="text-danger" aria-hidden="true">*</span></label>
+                    <select name="product_weight" id="product_weight" class="form-select" required>
+                        <option value="">Select Weight</option>
+                        <option value="3kg">3kg</option>
+                        <option value="5kg">5kg</option>
+                        <option value="7kg">7kg</option>
+                        <option value="9kg">9kg</option>
                     </select>
                 </div>
 
@@ -99,7 +99,7 @@ ob_start();
 </div>
 <div class="card shadow-sm">
     <div class="card-body">
-  
+
         <div class="row align-items-center mb-3">
             <div class="col">
                 <h5 class="mb-0">
@@ -112,9 +112,9 @@ ob_start();
                 <span class="badge bg-success">Total: 1 items</span>
             </div>
         </div>
- 
+
         <hr>
- 
+
         <div class="table-responsive">
             <table class="table table-striped table-hover">
                 <thead class="table-dark">
@@ -129,9 +129,9 @@ ob_start();
                 <tbody>
                     <tr>
                         <td>P001</td>
-                        <td>Road Bike</td>
-                        <td>$1,200.00</td>
-                        <td>Cervelo</td>
+                        <td>Premium Weighted Blanket</td>
+                        <td>RM 129.00</td>
+                        <td>SleepWell</td>
                         <td>
                             <a href="#" class="btn btn-sm btn-warning">
                                 <i class="bi bi-pencil"></i>
